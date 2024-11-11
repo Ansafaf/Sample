@@ -20,3 +20,81 @@ body
 {
     text-decoration: none;
 }
+.home-text
+{
+  color: black;
+  padding-left: 10px;
+  padding-top: -15;
+  padding-bottom: 10px;
+  margin-top: -2px;
+}
+.about-text
+{
+  color: black;
+  padding-left: 8px;
+  margin-top: -10px;
+}
+.contact-text
+{
+ color: black;
+ padding-left: 8px;
+ margin-top: -6px;
+}
+.img-contact
+{
+  padding-left: 8px;
+}
+.navbar
+{
+    padding-left: 30px;
+}
+h1
+{
+    margin-top: -342px;
+}
+.introhd{
+    margin-top:133px;
+    margin-left: 240px;
+}
+.intro{
+  margin-left: 239px;
+   
+}
+.photoskill
+{
+  width: 85%;
+  height: 30px;
+  background:linear-gradient(to right,grey 70%,black 30%);
+}
+.webskill
+{
+  width: 85%;
+  height: 30px;
+  background: linear-gradient(to right,grey 80%,black 20%);
+}
+.excelskill
+{
+  width: 85%;
+  height: 30px;
+  background: linear-gradient(to right,grey 40%,black 60%);
+}
+.projectlist
+{
+  width: 85%;
+  height: 120px;
+  background: #f2e9e9;
+  font-size: 33px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.numfirst
+{
+  margin-right: 10px;
+}
+.numsecond
+{
+  margin-left: 220px;
+  margin-top: -70px;
+}
