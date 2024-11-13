@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Portfolio-Website</title>
+    <link rel="stylesheet" href="newdesign.css">
+    <link rel="icon" href="https://png.pngtree.com/png-clipart/20190629/original/pngtree-vector-portfolio-icon-png-image_4072879.jpg">
+    <style>
+        /* General Styles */
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        a:hover {
+            background: green;
+        }
+
+        /* Header Section */
+        h1 {
+            font-size: 6vw;
+            color: rgb(2, 255, 40);
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 4.5vw;
+            color: white;
+        }
+
+        /* Navbar Styling */
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 4vw;
+        }
+
+        .navbar a {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Intro Section */
+        .introhd {
+            margin: 40px auto;
+            text-align: center;
+            font-size: 5vw;
+        }
+
+        .intro {
+            font-size: 4vw;
+            color: white;
+            margin: 10px auto;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Skills Section */
+        .skills {
+            text-align: center;
+        }
+
+        .skill-photo {
+            width: 85%;
+            height: 30px;
+            font-size: 4vw;
+            margin: 10px auto;
+            background: linear-gradient(to right, grey 70%, white 30%);
+        }
+        .skill-web {
+            width: 85%;
+            height: 30px;
+            font-size: 4vw;
+            margin: 10px auto;
+            background: linear-gradient(to right, grey 85%, white 15%);
+        }
+        .skill-excel {
+            width: 85%;
+            height: 30px;
+            font-size: 4vw;
+            margin: 10px auto;
+            background: linear-gradient(to right, grey 60%, white 40%);
+        }
+
+        /* Project List Section */
+        .projectlist {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 90%;
+            margin: 40px auto;
+            padding: 10px;
+            background: #e9ebf0;
+            color: black;
+            text-align: center;
+        }
+
+        .projectlist div {
+            flex: 1;
+            margin: 10px;
+        }
+
+        /* Responsive Design for Mobile */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 7vw;
+                margin-top: 20px;
+            }
+
+            h2 {
+                font-size: 5vw;
+            }
+
+            .navbar {
+                font-size: 4vw;
+            }
+
+            .navbar a {
+                font-size: 3.5vw;
+            }
+
+            .introhd, .intro {
+                margin-left: 5%;
+                margin-right: 5%;
+                font-size: 4.5vw;
+            }
+
+            .skills .skill-bar {
+                font-size: 3.8vw;
+                height: 30px;
+            }
+
+            .projectlist {
+                font-size: 4vw;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <img src="http://127.0.0.1:5500/ansaf.jpg" width="100px" height="100px" class="profile-pic" style="display: block; margin: 20px auto;">
+    <nav class="navbar">
+        <a href="https://www.google.com">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="M180-120q-25 0-42.5-17.5T120-180v-76l160-142v278H180Zm140 0v-160h320v160H320Zm360 0v-328L509-600l121-107 190 169q10 9 15 20.5t5 24.5v313q0 25-17.5 42.5T780-120H680ZM120-310v-183q0-13 5-25t15-20l300-266q8-8 18.5-11.5T480-819q11 0 21.5 3.5T520-804l80 71-480 423Z"/></svg>
+            <p>Home</p>
+        </a>
+        <a href="profiledesign.html">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="M149.33-40v-66.67h661.34V-40H149.33Zm0-813.33V-920h661.34v66.67H149.33ZM480-442.67q50 0 84.33-34.33 34.34-34.33 34.34-84.33t-34.34-84.34Q530-680 480-680t-84.33 34.33q-34.34 34.34-34.34 84.34T395.67-477Q430-442.67 480-442.67ZM141.33-160q-27 0-46.83-19.83-19.83-19.84-19.83-46.84v-506.66q0-28.34 19.83-47.5Q114.33-800 141.33-800h677.34q27 0 46.83 19.83 19.83 19.84 19.83 46.84v506.66q0 27-19.83 46.84Q845.67-160 818.67-160H141.33Zm82-66.67q49-60.66 117-92.33t139.34-31.67Q551-350.67 620-319q69 31.67 116.67 92.33h82v-506.66H141.33v506.66h82Zm102 0H636q-30.33-26.66-69.17-42Q528-284 480-284t-86.17 15.33q-38.16 15.34-68.5 42Z"/></svg>
+            <p>About</p>
+        </a>
+        <a href="download.jpeg">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#ffffff"><path d="M310.67-522q17 0 28.5-11.5t11.5-28.5q0-17-11.5-28.5t-28.5-11.5q-17 0-28.5 11.5t-11.5 28.5q0 17 11.5 28.5t28.5 11.5ZM482-522q17 0 28.5-11.5T522-562q0-17-11.5-28.5T482-602q-17 0-28.5 11.5T442-562q0 17 11.5 28.5T482-522Zm166.67 0q17 0 28.5-11.5t11.5-28.5q0-17-11.5-28.5t-28.5-11.5q-17 0-28.5 11.5t-11.5 28.5q0 17 11.5 28.5t28.5 11.5ZM80-80v-733.33q0-27 19.83-46.84Q119.67-880 146.67-880h666.66q27 0 46.84 19.83Q880-840.33 880-813.33v506.66q0 27-19.83 46.84Q840.33-240 813.33-240H240L80-80Zm131.33-226.67h602v-506.66H146.67v575l64.66-68.34Zm-64.66 0v-506.66 506.66Z"/></svg>
+            <p>Service</p>
+        </a>
+    </nav>
+
+    <h1>I'm MUHAMMED ANSAF AF</h1>
+    <h2>WEB DESIGNER</h2>
+
+    <h2 class="introhd">My Intro</h2>
+    <div class="intro">
+        <p>I'm a passionate web designer with a strong focus on creating visually appealing and user-friendly websites. I specialize in crafting engaging digital experiences that are both functional and aesthetically pleasing. My expertise includes HTML, CSS, and responsive design, ensuring that my creations look great on any screen. I'm always learning and staying up-to-date with the latest design trends and technologies.</p>
+    </div>
+
+    <h2 class="skills">Skills</h2>
+    <div class="skill-photo">Photography</div>
+    <div class="skill-web">Webdesign</div>
+    <div class="skill-excel">Excel</div>
+
+    <div class="projectlist">
+        <div>
+            <span id="partnersnum">11+</span><br>Partners
+        </div>
+        <div>
+            <span id="projectnum">30+</span><br>Projects Done
+        </div>
+        <div>
+            <span id="clientsnum">80+</span><br>Happy Clients
+        </div>
+        <div>
+            <span id="meetingsnum">120+</span><br>Meetings
+        </div>
+    </div>
+</body>
+</html>

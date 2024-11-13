@@ -1,7 +1,8 @@
 h1{
-    font-size: 1cm;
-    color: blue;
-    align-content: center;
+    font-size: 1.6cm;
+    color: rgb(2, 255, 40);
+    font-family: math;
+    margin-top: -470px;
 
 }
 .profile-pic
@@ -14,6 +15,7 @@ body
 {
     padding: 0px;
     margin: 0px;
+    display: block;
 
 }
 .buttons
@@ -34,67 +36,143 @@ body
   padding-left: 8px;
   margin-top: -10px;
 }
-.contact-text
+#contact-text
 {
  color: black;
  padding-left: 8px;
- margin-top: -6px;
-}
-.img-contact
-{
-  padding-left: 8px;
+ margin-top: -6px; 
 }
 .navbar
 {
     padding-left: 30px;
+    color: white;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+  
 }
-h1
+#text-home
 {
-    margin-top: -342px;
+  padding-left: 27px;
+  margin-top: -1px;
+}
+#text-about
+{
+  padding-left: 26px;
+  margin-top: 2px;
+}
+#text-service
+{
+  padding-left: 23px;
+  margin-top:-6px;
+}
+ 
+h2
+{
+  color: white;
 }
 .introhd{
     margin-top:133px;
     margin-left: 240px;
+   
 }
 .intro{
   margin-left: 239px;
+  font-size: 20px;
+  color: white;
    
 }
 .photoskill
 {
   width: 85%;
   height: 30px;
-  background:linear-gradient(to right,grey 70%,black 30%);
+  font-size: 20px;
+  background:linear-gradient(to right,grey 70%,white 30%);
 }
 .webskill
 {
   width: 85%;
   height: 30px;
-  background: linear-gradient(to right,grey 80%,black 20%);
+  font-size: 20px;
+  background: linear-gradient(to right,grey 80%,white 20%);
 }
 .excelskill
 {
   width: 85%;
   height: 30px;
-  background: linear-gradient(to right,grey 40%,black 60%);
+  font-size: 20px;
+  background: linear-gradient(to right,grey 40%,white 60%);
 }
 .projectlist
 {
   width: 85%;
   height: 120px;
-  background: #f2e9e9;
-  font-size: 33px;
+  background: #e9ebf0;
+  font-size: 34px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 30px;
-  padding-top: 20px;
-  padding-left: 60px;
+  padding-top: 5px;
+  padding-left: 0px;
+  margin-top: 60px;
+  color: black;
 }
 .numfirst
 {
-  margin-right: 10px;
+  padding-left: 40px;
+  padding-top: 20px;
 }
 .numsecond
 {
-  margin-left: 220px;
-  margin-top: -70px;
+  padding-left: 240px;
+  margin-top: -74px;
 }
+.numthird
+{
+   padding-left: 540px;
+   margin-top: -76px;
+}
+.numfour
+{
+  padding-left: 850px;
+  margin-top: -75px;
+}
+#partnersnum
+{
+  margin-left: 40px;
+}
+#projectnum
+{
+  margin-left: 70px;
+}
+#clientsnum
+{
+  margin-left: 80px;
+}
+#meetingsnum
+{
+  margin-left: 30px;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  background:green;
+}
+body{
+  display: block;
+  }
+  #image-home
+  {
+    padding-left: 40px;
+    padding-bottom: 1px;
+  }
+  #image-about
+  {
+    padding-left: 38px;
+    padding-top: 0px;
+  }
+  #image-service
+  {
+    padding-left: 40px;
+  }
