@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+main {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.video-player {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.related-videos {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.video-thumbnail {
+    align-items: center;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.video-thumbnail img {
+    width: 220px;
+    height: auto;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+aside {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #282c34;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.videothumbnail img
+{
+    width: 220px;
+    height: auto;
+}
+.relatedvideos
+{
+   display: flex;
+   justify-content: space-around;
+}
+.videothumbnail
+{
+    margin-bottom: 3px;
+    padding-left: 16px;
+    
+}
